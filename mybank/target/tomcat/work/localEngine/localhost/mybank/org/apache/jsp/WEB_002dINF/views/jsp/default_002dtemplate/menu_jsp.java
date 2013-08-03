@@ -50,7 +50,7 @@ public final class menu_jsp extends org.apache.jasper.runtime.HttpJspBase
       out = pageContext.getOut();
       _jspx_out = out;
 
-      out.write("<p>Menu</p>");
+      out.write("<a href=\"#\">Home</a> | <a href=\"addCustomer\">Add Customer</a>");
     } catch (Throwable t) {
       if (!(t instanceof SkipPageException)){
         out = _jspx_out;

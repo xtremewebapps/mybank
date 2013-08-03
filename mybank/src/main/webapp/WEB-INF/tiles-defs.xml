@@ -16,4 +16,14 @@
 		<put-attribute name="title" value="Home Page" />
 		<put-attribute name="body" value="/WEB-INF/views/jsp/home.jsp" />
 	</definition>
+	
+	<definition name="addCustomer" extends="base.definition">
+		<put-attribute name="title" value="Customer Information" />
+		<put-attribute name="body" value="/WEB-INF/views/jsp/customer/addCustomer.jsp" />
+	</definition>
+	
+	<definition name="result" extends="base.definition">
+		<put-attribute name="title" value="Add Customer" />
+		<put-attribute name="body" value="/WEB-INF/views/jsp/customer/result.jsp" />
+	</definition>
 </tiles-definitions>

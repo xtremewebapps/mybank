@@ -1,1 +1,1 @@
-<p>Menu</p>
+<a href="#">Home</a> | <a href="addCustomer">Add Customer</a>
